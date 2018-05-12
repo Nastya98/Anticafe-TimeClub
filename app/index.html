@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.css">
+
+	<!-- Fonts -->
+	<link rel="stylesheet" type="text/css" href="fonts/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+
+	<!-- Hamburger-menu -->
+	<link rel="stylesheet" type="text/css" href="libs/jquery-fatNav/dist/jquery.fatNav.css">
+    <!-- WOW -->
+    <link rel="stylesheet" type="text/css" href="libs/animate.css/animate.min.css">
+	<title>ANTICAFE | TimeClub</title>
+</head>
+<body>
+
+<div id="main-wrapper">
+<div class="main">
+	<div id="modal-window">
+		<div  class="window">
+			<form id="small-form">
+			<h3>Оставить заявку</h3>
+			<input class="window-input window-name" placeholder="Имя" type="text" name="name">
+			<input id="client-phone-modal" class="window-input window-telephone" placeholder="Телефон" type="text" name="phone">
+			<button class="window-btn">Забронировать</button>	
+			</form>	
+			<div id="close">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div>
+
+<div class="background">
+<div class="overlay wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+	<div class="container-fluid">
+	<div class="wrapper-header">
+		<section id="header">
+			<div class="header-contacts">
+					<div  id="logo-wrapper">
+						<a href=""><img class="logo wow fadeIn" data-wow-duration="1s" data-wow-delay="2s" src="img/logo_main_12 (1).png"></a>
+					</div>
+					<div id="contacts" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="5s">
+						<div id="phone">
+							<i class="fa fa-phone" aria-hidden="true"></i><span> +38 (044) 351-19-90</span>
+							<i class="fa fa-phone" aria-hidden="true"></i><span> +38 (067) 287-16-10</span>
+						</div>
+						<ul>
+							<li id="facebook"><a class="link-facebook" href="" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li id="twitter"><a class="link-twitter" href="" ><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+							<li id="vk"><a class="link-vk" href="" ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="fat-nav">
+    						<div class="fat-nav__wrapper">
+        						<ul class="hamburger-menu">
+            						<li><a href="#description"><i class="fa hamburger-icon fa-info-circle" aria-hidden="true"></i>О нас</a></li>
+            						<li><a href="#rooms"><i class="fa hamburger-icon fa-home" aria-hidden="true"></i>Залы</a></li>
+            						<li><a href="#price"><i class="fa hamburger-icon fa-money" aria-hidden="true"></i>Стоимость</a></li>
+            						<li><a href="#events"><i class="fa hamburger-icon fa-money" aria-hidden="true"></i>Афиша</a></li>
+            						<li><a href="#gallery"><i class="fa hamburger-icon fa-picture-o" aria-hidden="true"></i>Галерея</a></li>
+            						<li><a href="#partner"><i class="fa hamburger-icon fa-handshake-o" aria-hidden="true"></i>Партнеры</a></li>
+            						<li><a href="#form"><i class="fa hamburger-icon fa-bookmark-o" aria-hidden="true"></i>Забронировать</a></li>
+            						<li><a href="#contact-info"><i class="fa hamburger-icon fa-map-marker" aria-hidden="true"></i>Контакты</a></li>
+        						</ul>
+    						</div>
+						</div>
+			</div>
+		</section>
+		<div class="content">
+			<h1 class="wow fadeIn" data-wow-duration="1s" data-wow-delay="3s">TimeClub</h1>
+			<p class="wow fadeIn" data-wow-duration="1s" data-wow-delay="4s">Уникальное место для работы, отдыха, развития<br>
+и проведения мероприятий</p>
+			<a class="more wow fadeIn" data-wow-duration="1s" data-wow-delay="4s" href="#description">Узнать подробнее</a>
+		</div>
+		<nav class="menu row wow fadeInUp" data-wow-duration="1s" data-wow-delay="5s">
+			<div class="wrapper">
+				<ul class="main-menu">
+					<li><a href="#description"><i class="fa fa-info-circle" aria-hidden="true"></i>о нас</a></li>
+					<li><a href="#rooms"><i class="fa fa-home" aria-hidden="true"></i>залы</a></li>
+					<li><a href="#price"><i class="fa fa-money" aria-hidden="true"></i>стоимость</a></li>
+					<li><a href="#events"><i class="fa fa-calendar" aria-hidden="true"></i>афиша</a></li>
+					<li><a href="#gallery"><i class="fa fa-picture-o" aria-hidden="true"></i>галерея</a></li>
+					<li><a href="#partner"><i class="fa fa-handshake-o" aria-hidden="true"></i>партнеры</a></li>
+					<li><a href="#form"><i class="fa fa-bookmark-o" aria-hidden="true"></i>забронировать</a></li>
+					<li><a href="#contact-info"><i class="fa fa-map-marker" aria-hidden="true"></i>контакты</a></li>
+				</ul>
+				
+			</div>	
+			
+			
+		</nav>
+		</div>
+		</div>
+		</div>
+	</div>
+	<div id="toTop"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+	<section id="description">
+			<div class="container-fluid">
+				<div class="wrapper" class="">
+						<div class="description-wrapper row">
+							<h2 class="wow zoomIn" data-wow-duration="1s">Что такое «<span>антикафе</span>»?</h2>
+							<p class="wow zoomIn" data-wow-duration="0.6s" data-wow-delay="1s">Это место...</p>
+							<div class="item">
+							<div class="description-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.1s" >
+								<div class="description-content">где можно провести время интересно, весело и с пользой</div>
+							</div>
+							<div class="description-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="1.6s">
+								<div class="description-content">где вы платите не за напитки и еду, а за время, которое вы проводите в пространстве антикафе</div>
+							</div>
+							<div class="description-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="2.1s">
+								<div class="description-content">где есть возможность забронировать отдельную переговорную для встречи с клиентами и партнерами</div>
+							</div>
+							<div class="description-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="2.6s">
+								<div class="description-content align">для фрилансеров, ведь работать в антикафе можно в домашней атмосфере, со всем необходимым</div>
+							</div>
+							<div class="description-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="3.1s">
+								<div class="description-content align">для организации праздничных мероприятий: презентации, тематические и корпоративные вечеринки</div>
+							</div>
+							<div class="description-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="3.6s">
+								<div class="description-content align">где Вы всегда найдете покой, где сможетем уединениться, это место для релакса</div>
+							</div>
+  						</div> 
+					</div>
+				</div>	
+            </div>
+	</section>	
+	
+	<section id="adv">
+		<div class="overlay">
+			<div class="container">
+				<div class="wrapper row">
+					<h2 class="wow fadeInUp" data-wow-duration="1s">Почему мы?</h2>
+					<div class="items">
+						<div class="advantages wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">
+							<i class="fa fa-smile-o" aria-hidden="true"></i>
+							<p class="title"><span>уют и комфорт</span></p>		
+							<p class="description">мягкие диваны и столы ручной работы к Вашим услугам</p>
+						</div>
+						<div class="advantages wow fadeIn" data-wow-duration="1s" data-wow-delay="1.3s">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+							<p class="title"><span>активный отдых</span></p>
+							<p class="description">в Вашем распоряжении Xbox c Kinnect, настольный футбол</p>
+						</div>
+						<div class="advantages wow fadeIn" data-wow-duration="1s" data-wow-delay="1.5s">
+							<i class="fa fa-book" aria-hidden="true"></i>
+							<p class="title"> <span>интеллектуальная нагрузка</span></p>
+							<p class="description">у нас есть: шашки, шахматы, большой выбор ролевых настольных игр</p>
+						</div>
+						<div class="advantages wow fadeIn" data-wow-duration="1s" data-wow-delay="1.8s">
+							<i class="fa fa-music" aria-hidden="true"></i>
+							<p class="title"><span> для любителей музыки</span></p>
+							<p class="description">если ты любишь петь, или просто хочешь расслабиться - в Вашем распоряжении караоке</p>
+						</div>
+						<div class="advantages wow fadeIn" data-wow-duration="1s" data-wow-delay="2.1s">
+							<i class="fa fa-users" aria-hidden="true"></i>
+							<p class="title"><span> индивидульность для каждого</span></p>
+							<p class="description">вы можете забронировать как отдельный столик, так и зал, для большой компании</p>
+						</div>
+						<div class="advantages wow fadeIn" data-wow-duration="1s" data-wow-delay="2.4s">
+							<i class="fa fa-coffee" aria-hidden="true"></i>
+							<p class="title"><span> мини кафе</span></p>
+							<p class="description">у нас есть кофе, чай, снеки, сладости</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="rooms">
+		<div id="overlay">
+			<div class="container-fluid">
+				<div class="wrapper row">
+					<div class="halls">
+					<div class="owl-carousel slider">
+    					<div class="item">
+    						<div class="halls-img halls-img-first wow fadeIn" data-wow-duration="1s" data-wow-delay="0.7s">></div>
+    						<div class="halls-content">
+    							<h2 class="halls-title wow fadeIn" data-wow-duration="1s" data-wow-delay="1.1s">лекторий</h2>
+    							<p class="halls-transcript wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s">Многофункциональный openspace в лучших традициях стиля loft.</p>
+    							<div>
+    								<div class="wrapper-adv">
+    								<div class="halls-adv wow fadeIn" data-wow-duration="1s" data-wow-delay="1.4s">
+    									<p class="main-item">вместительность:</p>
+    									<div class="halls-icon01"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-text">Театром:</p>
+    											<p class="small-cost">100</p>
+    										</div>
+    										<div class="info">
+    											<p class="small-text">За столами</p>
+    											<p class="small-cost">70</p>
+    										</div>
+    										<div class="info">
+    											<p class="small-text">Фуршет:</p>
+    											<p class="small-cost">150 <span>человек</span></p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-adv wow fadeIn" data-wow-duration="1s" data-wow-delay="1.7s">
+    									<p class="main-item">оборудование:</p>
+    									<div class="halls-details">
+    										<div class="info">
+    											<span><i class="fa fa-microphone" aria-hidden="true"></i></span>
+    											<p class="small-cost">Микрофон</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-volume-up" aria-hidden="true"></i></span>
+    											<p class="small-cost">Звук</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-video-camera" aria-hidden="true"></i></span>
+    											<p class="small-cost">Проектор</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-star" aria-hidden="true"></i></span>
+    											<p class="small-cost">Сцена</p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-adv wow fadeIn" data-wow-duration="1s" data-wow-delay="2s">
+    									<p class="main-item">площадь:</p>
+    									<div class="halls-icon-area"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-cost">113 м<sup>2</sup></p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-btn wow fadeIn" data-wow-duration="1s" data-wow-delay="2.3s">
+    									<button class="modal-trigger btn-book">Забронировать<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    								</div>
+    								<!-- <div class="show">Описание</div>
+    								<div class="features" style="display: none">sdfgthydfgh</div> -->
+    								</div>
+    							</div>
+    						</div>
+
+
+    					</div>
+    					<div class="item">
+    						<div class="halls-img halls-img-second"></div>
+    						<div class="halls-content">
+    							<h2 class="halls-title">библиотека</h2>
+    							<p class="halls-transcript">Технически укомплектованный конференц-зал в изысканном стиле.</p>
+    							<div>
+    								<div class="wrapper-adv">
+    								<div class="halls-adv">
+    									<p class="main-item">вместительность:</p>
+    									<div class="halls-icon01"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-text">Весь зал:</p>
+    											<p class="small-cost">12 <span>человек</span></p>
+    										</div>
+    										
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">оборудование:</p>
+    									<div class="halls-details">
+    										<div class="info">
+    											<span><i class="fa fa-laptop" aria-hidden="true"></i></span>
+    											<p class="small-cost">Ноутбуки</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-volume-up" aria-hidden="true"></i></span>
+    											<p class="small-cost">Звук</p>
+
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-video-camera" aria-hidden="true"></i></span>
+    											<p class="small-cost">Проектор</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-coffee" aria-hidden="true"></i></span>
+    											<p class="small-cost">Кофе/чай</p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">площадь:</p>
+    									<div class="halls-icon-area"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-cost">21 м<sup>2</sup></p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-btn">
+    									<button class="modal-trigger btn-book">Забронировать<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    								</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="item">
+    						<div class="halls-img halls-img-third"></div>
+    						<div class="halls-content">
+    							<h2 class="halls-title">покерная</h2>
+    							<p class="halls-transcript">Гармония интерьера и непринуждённой обстановки.</p>
+    							<div>
+    								<div class="wrapper-adv">
+    								<div class="halls-adv">
+    									<p class="main-item">вместительность:</p>
+    									<div class="halls-icon01"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-text">Весь зал:</p>
+    											<p class="small-cost">10 <span>человек</span></p>
+    										</div>
+    										
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">оборудование:</p>
+    									<div class="halls-details">
+    										<div class="info">
+    											<span><i class="fa fa-laptop" aria-hidden="true"></i></span>
+    											<p class="small-cost">Ноутбуки</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-volume-up" aria-hidden="true"></i></span>
+    											<p class="small-cost">Звук</p>
+
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-film" aria-hidden="true"></i></span>
+    											<p class="small-cost">Экран</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-coffee" aria-hidden="true"></i></span>
+    											<p class="small-cost">Кофе/чай</p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">площадь:</p>
+    									<div class="halls-icon-area"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-cost">21 м<sup>2</sup></p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-btn">
+    									<button class="modal-trigger btn-book">Забронировать<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    								</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="item">
+    						<div class="halls-img halls-img-fourth"></div>
+    						<div class="halls-content">
+    							<h2 class="halls-title">большая игровая</h2>
+    							<p class="halls-transcript">Многофункциональный, яркий и позитивный зал.</p>
+    							<div>
+    								<div class="wrapper-adv">
+    								<div class="halls-adv">
+    									<p class="main-item">вместительность:</p>
+    									<div class="halls-icon01"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-text">Весь зал:</p>
+    											<p class="small-cost">25 <span>человек</span></p>
+    										</div>
+    										
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">оборудование:</p>
+    									<div class="halls-details">
+    										<div class="info">
+    											<span><i class="fa fa-gamepad" aria-hidden="true"></i></span>
+    											<p class="small-cost">PlayStation4</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-volume-up" aria-hidden="true"></i></span>
+    											<p class="small-cost">Звук</p>
+
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-coffee" aria-hidden="true"></i></span>
+    											<p class="small-cost">Кофе/чай</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-video-camera" aria-hidden="true"></i></span>
+    											<p class="small-cost">Проектор</p>
+    										</div>
+    										
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">площадь:</p>
+    									<div class="halls-icon-area"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-cost">32 м<sup>2</sup></p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-btn">
+    									<button class="modal-trigger btn-book">Забронировать<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    								</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="item">
+    						<div class="halls-img halls-img-fifth"></div>
+    						<div class="halls-content">
+    							<h2 class="halls-title">малая игровая</h2>
+    							<p class="halls-transcript">Комната для небольшой компании, цель которой выяснить отношения с помощью приставки Sony Playstation4.</p>
+    							<div>
+    								<div class="wrapper-adv">
+    								<div class="halls-adv">
+    									<p class="main-item">вместительность:</p>
+    									<div class="halls-icon01"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-text">Весь зал:</p>
+    											<p class="small-cost">3 <span>человека</span></p>
+    										</div>
+    										
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">оборудование:</p>
+    									<div class="halls-details">
+    										<div class="info">
+    											<span><i class="fa fa-gamepad" aria-hidden="true"></i></span>
+    											<p class="small-cost">PlayStation4</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-volume-up" aria-hidden="true"></i></span>
+    											<p class="small-cost">Звук</p>
+
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-film" aria-hidden="true"></i></span>
+    											<p class="small-cost">Экран</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-coffee" aria-hidden="true"></i></span>
+    											<p class="small-cost">Кофе/чай</p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">площадь:</p>
+    									<div class="halls-icon-area"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-cost">7 м<sup>2</sup></p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-btn">
+    									<button class="modal-trigger btn-book">Забронировать<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    								</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="item">
+    						<div class="halls-img halls-img-sixth"></div>
+    						<div class="halls-content">
+    							<h2 class="halls-title">кабинет</h2>
+    							<p class="halls-transcript">Идеальное закрытое рабочее пространство.</p>
+    							<div>
+    								<div class="wrapper-adv">
+    								<div class="halls-adv">
+    									<p class="main-item">вместительность:</p>
+    									<div class="halls-icon01"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-text">Весь зал:</p>
+    											<p class="small-cost">2 <span>человека</span></p>
+    										</div>
+    										
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">оборудование:</p>
+    									<div class="halls-details">
+    										<div class="info">
+    											<span><i class="fa fa-camera" aria-hidden="true"></i></span>
+    											<p class="small-cost">Веб-камера</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-headphones" aria-hidden="true"></i></span>
+    											<p class="small-cost">Наушники</p>
+
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-television" aria-hidden="true"></i></span>
+    											<p class="small-cost">ПК</p>
+    										</div>
+    										<div class="info">
+    											<span><i class="fa fa-coffee" aria-hidden="true"></i></span>
+    											<p class="small-cost">Кофе/чай</p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-adv">
+    									<p class="main-item">площадь:</p>
+    									<div class="halls-icon-area"></div>
+    									<div class="halls-details">
+    										<div class="info">
+    											<p class="small-cost">5 м<sup>2</sup></p>
+    										</div>
+    									</div>
+    								</div>
+    								<div class="halls-btn">
+    									<button class="modal-trigger btn-book">Забронировать<i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+    								</div>
+    								</div>
+    							</div>
+    						</div>
+    					</div>
+					
+					</div>
+					</div>
+				</div>
+			</div>	
+		</div>	
+	</section> 
+	<section id="price">
+			<div class="container-fluid">
+				<div class="wrapper">
+				<div class="cost">
+				<h2 class="payment-h2 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.7s">Стоимость</h2>
+				<div class="pay-box">
+					<div class="payment wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+						<div class="payment-img payment-img-standart">
+						</div>
+						<div class="payment-content">
+							<h2>Стандарт</h2>
+							<ul>
+								<li>Первый час<span>39 грн.</span></li>
+								<li>Каждый час<span>+29 грн.</span></li>
+								<li>От 6 часов<span>184 грн.</span></li>
+							</ul>
+						</div>
+						<button class="payment-but modal-trigger">Забронировать</button>
+					</div>
+					<div class="payment wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+						<div class="payment-img payment-img-rooms">
+						</div>
+						<div class="payment-content">
+							<h2>Аренда зала</h2>
+							<ul>
+								<li>9:00-18:00<span>250 грн/ч.</span></li>
+								<li>После 18:00<span>500 грн/ч.</span></li>
+								<li>Всё антикафе<span>5000 грн/ч.</span></li>
+
+							</ul>
+						</div>
+						<button class="payment-but modal-trigger">Забронировать</button>
+					</div>
+					<div class="payment wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+						<div class="payment-img payment-img-special">
+						</div>
+						<div class="payment-content">
+							<h2>Специальные предложения</h2>
+							<ul>
+								<li>Для именинника<span>бесплатно</span></li>
+								<li>Для студентов <span>-10%</span></li>
+							</ul>
+						</div>
+						<button class="payment-but modal-trigger">Забронировать</button>
+					</div>
+					
+					</div>
+				</div>
+				</div>
+			</div>		
+	</section> 
+	<section id="events">
+			<div class="container-fluid">
+				<div class="wrapper row">
+					<div class="event-wrapper">
+					<h2 class="wow fadeIn event-h2" data-wow-duration="1s" data-wow-delay="0.7s">Ближайшие события</h2>
+					<div class="wow fadeInUp owl-carousel event" data-wow-duration="1s" data-wow-delay="1s">
+
+    					<div class="item">
+							<img src="img/events-09.jpg">
+							<div class="middle"> <div class="text">Фильмы культового кино! Английский юмор, нестандартные сюжеты, яркие и выделяющиеся персонажи – все это ждет вас в TimeCLub.</div></div>
+                            </div>
+						<div class="item">
+							<img src="img/events-03.jpg">
+							<div class="middle"> <div class="text">Поборись за место дьявола в покере. Участвуй в турнире по покеру, набирайте победные очки и выиграй билет на финальный стол!
+							Тебя ждут приятные бонусы и подарки!</div></div>
+						</div>
+						<div class="item">
+							<img src="img/events-04.jpg">
+							<div class="middle"> <div class="text">Работа с Подсознанием, отработка техники Контакта, решение проблем и другие жизненно важные вопросы. Материал дается простым и доступным языком, легок в восприятии и освоении.</div></div>
+						</div>
+						<div class="item">
+							<img src="img/events-10.jpg">
+							<div class="middle"> <div class="text">Данный семинар поможет разобраться в многочисленных подходах к мотивации и выбрать тот, который наиболее подходит конкретной организации.</div></div>
+						</div>
+						<div class="item">
+							<img src="img/events-01.jpg">
+							<div class="middle"> <div class="text">Поговорим о развитии бизнеса, объединяя людей, создающих и воплощающих идеи.</div></div>
+						</div>
+						<div class="item">
+							<img src="img/events-02.jpg">
+							<div class="middle"> <div class="text">Цель данного мастер-класса - полное художественное раскрепощение и устранение боязни чистого холста. </div></div>
+						</div>
+						<div class="item">
+							<img src="img/events-06.jpg">
+							<div class="middle"> <div class="text">Хотите узнать как сделать оригинальные валентинки своими руками, создать романтическую обстановку в доме, украсить праздничный стол на День влюблённых? Идеи найдёте на нашем мастер-классе.</div></div>
+						</div>
+						<div class="item">
+							<img src="img/events-07.jpg">
+							<div class="middle"> <div class="text">Если Вам интересно рисование, если Вы никогда не держали в руках конус, но пару раз держали в руках карандаш, ручку или кисть, если Вы никогда не рисовали, но всегда хотели научиться - тогда приходи к нам!</div></div>
+						</div>
+						<div class="item">
+							<img src="img/events-08.jpg">
+							<div class="middle"> <div class="text">Мастер-класс по актерскому мастерству станет не только веселым развлечением, но и ты овладеешь основами актерского мастерства, научишься правильно и красиво говорить.</div></div>
+						</div>
+						<div class="item">
+							<img src="img/events-11.jpg">
+							<div class="middle"> <div class="text">Вечер хорошей музыки и неимоверной атмосферы ждет Вас вместе с потрясающими South Boys!</div></div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>		
+	</section> 
+	
+	<section id="gallery">
+			<div class="container-fluid">
+				<div class="wrapper" class="row">
+						<div class="gallery-item row">
+							<!-- <div class="container-image">  -->
+								<div class="wow fadeInLeft gallery-img gallery-img-first" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInLeft gallery-img gallery-img-second" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image"> -->
+								<div class="wow fadeInLeft gallery-img gallery-img-third" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInLeft gallery-img gallery-img-fourth" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInRight gallery-img gallery-img-fifth" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInRight gallery-img gallery-img-sixth" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInRight gallery-img gallery-img-seventh" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInRight gallery-img gallery-img-eighth" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInLeft gallery-img gallery-img-ninth" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInLeft gallery-img gallery-img-tenth" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInLeft gallery-img gallery-img-eleventh" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+							<div class="container-image">  -->
+								<div class="wow fadeInLeft gallery-img gallery-img-twelfth" data-wow-duration="1s" data-wow-delay="1s"></div>
+							<!-- </div>
+			 -->
+  						</div> 
+					</div>
+				</div>
+			</div>		
+	</section> 
+
+	<section id="partner">
+			<div class="container-fluid">
+				<div class="wrapper row">
+					<div class="partner-box">
+					<h2 class="wow fadeInDown partner-h2" data-wow-duration="1s" data-wow-delay="0.7s">Наши клиенты и партнеры</h2>
+					<div class="partner-description">
+					</div>
+					<div class="common-partner">
+						<div class="wow fadeInUp partner-item" data-wow-duration="1s" data-wow-delay="1s">
+							<div class="partner-img col-md-4"><a href="http://new.ukrtelecom.ua/"> <img src="img/partner-01.png"></a></div>
+							<div class="partner-img col-md-4"><a href="https://www.luxoft.ru/"> <img src="img/partner-02.jpg"></a></div>
+							<div class="partner-img col-md-4"><a href="https://www.leroymerlin.ua/"> <img src="img/partner-11.png"></a></div>
+						</div>
+						<div class="wow fadeInDown partner-item" data-wow-duration="1s" data-wow-delay="1s">
+							<div class="partner-img col-md-4"><a href="https://www.oschadbank.ua/ua/"> <img src="img/partner-04.jpg"></a></div>
+							<div class="partner-img col-md-4"><a href="https://www.microsoft.com/uk-ua"> <img src="img/partner-07.png"></a></div>
+							<div class="partner-img col-md-4"><a href="https://hh.ua/"> <img src="img/partner-08.png"></a></div>
+						</div>
+						<div class="wow fadeInUp partner-item" data-wow-duration="1s" data-wow-delay="1s">
+							<div class="partner-img col-md-4"><a href="http://www.pepsi.ua/"> <img src="img/partner-09.png"></a></div>
+							<div class="partner-img col-md-4"><a href="http://www.softline.kiev.ua/"> <img src="img/partner-12.png"></a></div>
+							<div class="partner-img col-md-4"><a href="https://chicco.com.ua/"> <img src="img/partner-09.jpg"></a></div>
+						</div>
+						</div>
+						<div class="owl-carousel partner-display">
+    					<div class="item">
+							<div class="partner-img"><a href="http://new.ukrtelecom.ua/"> <img src="img/partner-01.png"></a></div>
+						</div>
+						<div class="item">
+							<div class="partner-img"><a href="https://www.luxoft.ru/"> <img src="img/partner-02.jpg"></a></div>
+						</div>
+						<div class="item">
+							<div class="partner-img"><a href="https://www.leroymerlin.ua/"> <img src="img/partner-11.png"></a></div>
+						</div>
+						<div class="item">
+							<div class="partner-img"><a href="https://www.oschadbank.ua/ua/"> <img src="img/partner-04.jpg"></a></div>
+						</div>
+						<div class="item">
+							<div class="partner-img"><a href="https://www.microsoft.com/uk-ua"> <img src="img/partner-07.png"></a></div>
+						</div>
+						<div class="item">
+							<div class="partner-img"><a href="https://hh.ua/"> <img src="img/partner-08.png"></a></div>
+						</div>
+						<div class="item">
+							<div class="partner-img"><a href="http://www.pepsi.ua/"> <img src="img/partner-09.png"></a></div>
+						</div>
+						<div class="item">
+						<div class="partner-img"><a href="https://chicco.com.ua/"> <img src="img/partner-09.jpg"></a></div>
+						</div>
+						<div class="item">
+							<div class="partner-img"><a href="http://www.softline.kiev.ua/"> <img src="img/partner-12.png"></a></div>
+						</div>
+						
+					</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+	</section> 
+
+
+	<section id="form">
+			<div class="container-fluid">
+				<div class="wrapper row">
+					<div class="some">
+					<div class="piece"></div>
+						<div class="wow fadeInLeft form-wrapper" data-wow-duration="1s" data-wow-delay="1s">
+
+							<h2>Хотите забронировать место?</h2>
+							<p>Заполните данные и мы Вам в ближайшее время перезвоним!</p>
+							<form id="commentForm">
+							<input class="form-input name" placeholder="Имя" type="text" name="name">
+							<input class="form-input sname" placeholder="Фамилия" type="text" name="sname">
+							<input id="client-phone" class="form-input" placeholder="Номер телефона" type="text" name="phone">
+							<input class="form-input email" placeholder="E-mail" type="email" name="email">
+							<textarea placeholder="Ваше сообщение" rows="5" cols="40" name="message"></textarea>
+							<button type="submit">Перезвоните мне</button>
+							</form>
+  						</div> 
+  						<div id="contact-info" class="wow fadeInRight contacts-info" data-wow-duration="1s" data-wow-delay="1s">
+  							<h2>антикафе time club</h2>
+  							<h3>Киев, Украина</h3>
+  							<p>ул. Борщаговская, 128 (3 этаж)</p>
+  							<h3>Часы работы</h3>
+  							<p>Каждый день 9:00 - 1:00</p>
+  							<h3>Наши телефоны</h3>
+							<p>+38 (093) 106 74 14 </p>
+							<p>+38 (097) 670 79 00 </p>
+							<br>
+							<p><a href="#"> office@campus-anticafe.com</a></p>
+							<h3>Мы в соц. сетях</h3>
+							<ul>
+								<li id="facebook"><a class="link-facebook" href="" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li id="twitter"><a class="link-twitter" href="" ><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+								<li id="vk"><a class="link-vk" href="" ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+  						</div>
+  						</div>
+					</div>
+				</div>
+			</div>		
+	</section> 
+	<section id="map">
+			<div class="container-fluid">
+				<div class="wrapper" class="row">
+					<div class="map-wrapper wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.526918115416!2d30.45083910938563!3d50.4471962447967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cc273cecadeb%3A0x9f29a539026a712c!2zUm9ieW1Hb29kINC60YPRgNGB0YsgV2ViLdC00LjQt9Cw0LnQvdCwLCDQstGD0LvQuNGG0Y8g0JHQvtGA0YnQsNCz0ZbQstGB0YzQutCwLCAxMjgsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1517400651003" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+							
+					</div>
+  					
+					
+				</div>
+			</div>		
+	</section> 
+	<footer id="footer">
+		<div class="background-footer">
+		<div class="overlay-footer">
+			<div class="container-fluid">
+				<div class="wrapper row">
+					<div class="footer-wrapper">
+						<div  class="footer-logo">
+							<a href=""><img class="logo" src="img/logo_main_12 (1).png"></a>
+						</div>	
+						<div class="footer-phones">
+							<p class="footer-mobile">
+								<i class="fa fa-phone" aria-hidden="true"></i><span> +38 (044) 351-19-90</span>
+							</p>
+							<p class="footer-mobile">
+								<i class="fa fa-phone" aria-hidden="true"></i><span> +38 (067) 287-16-10</span>
+							</p>
+							<p class="copyRigth">&copy; 2015 <span>TimeClub</span> all rights reserved <span>Footerupbutton</span></p>
+						</div>
+						<div class="networks">
+							<ul>
+								<li id="facebook"><a class="link-facebook" href="" ><i class="fa fa-facebook" aria-hidden="true">	</i></a></li>
+								<li id="twitter"><a class="link-twitter" href="" ><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+								<li id="vk"><a class="link-vk" href="" ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						</ul>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		</div>		
+	</footer> 
+	
+	
+</div>
+</div>
+
+<!-- Main script -->
+<script src="libs/jquery/dist/jquery.min.js"></script>
+<script src="js/main.js"></script>
+<!-- Owl Carousel -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- Validation Form-->
+<script src="js/jquery.validate.min.js"></script>
+<script src="libs/jquery.maskedinput/dist/jquery.maskedinput.min.js"></script>
+<!-- Hamburger-menu -->
+<script src="libs/jquery-fatNav/dist/jquery.fatNav.min.js"></script>
+<!-- WOW -->
+<script src="libs/wow/dist/wow.min.js"></script>
+</body>
+</html>

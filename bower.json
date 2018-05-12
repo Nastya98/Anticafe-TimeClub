@@ -1,0 +1,23 @@
+{
+  "name": "anticafe",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Nastya98 <nastyamalinka@ukr.net>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "^2.2.1",
+    "jquery.maskedinput": "^1.4.1",
+    "animate.css": "^3.5.2"
+  }
+}
